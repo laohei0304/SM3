@@ -13,7 +13,7 @@
 		B67BFFCD2369A47200AD3CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67BFFCC2369A47200AD3CCA /* Assets.xcassets */; };
 		B67BFFD02369A47200AD3CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67BFFCF2369A47200AD3CCA /* Preview Assets.xcassets */; };
 		B67BFFD32369A47200AD3CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67BFFD12369A47200AD3CCA /* LaunchScreen.storyboard */; };
-		B67BFFE32369A4FD00AD3CCA /* HM_SM3.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFDB2369A4FD00AD3CCA /* HM_SM3.m */; };
+		B67BFFE32369A4FD00AD3CCA /* NSString+sm3.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFDB2369A4FD00AD3CCA /* NSString+sm3.m */; };
 		B67BFFE42369A4FD00AD3CCA /* sm3.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFDC2369A4FD00AD3CCA /* sm3.m */; };
 		B67BFFE52369A4FD00AD3CCA /* NSString+HM_Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFE12369A4FD00AD3CCA /* NSString+HM_Base64.m */; };
 		B67BFFE62369A4FD00AD3CCA /* HMEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFE22369A4FD00AD3CCA /* HMEncrypt.m */; };
@@ -28,12 +28,12 @@
 		B67BFFCF2369A47200AD3CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B67BFFD22369A47200AD3CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B67BFFD42369A47200AD3CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B67BFFDB2369A4FD00AD3CCA /* HM_SM3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HM_SM3.m; sourceTree = "<group>"; };
+		B67BFFDB2369A4FD00AD3CCA /* NSString+sm3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+sm3.m"; sourceTree = "<group>"; };
 		B67BFFDC2369A4FD00AD3CCA /* sm3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sm3.m; sourceTree = "<group>"; };
 		B67BFFDD2369A4FD00AD3CCA /* HMEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMEncrypt.h; sourceTree = "<group>"; };
 		B67BFFDE2369A4FD00AD3CCA /* NSString+HM_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HM_Base64.h"; sourceTree = "<group>"; };
 		B67BFFDF2369A4FD00AD3CCA /* sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm3.h; sourceTree = "<group>"; };
-		B67BFFE02369A4FD00AD3CCA /* HM_SM3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HM_SM3.h; sourceTree = "<group>"; };
+		B67BFFE02369A4FD00AD3CCA /* NSString+sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+sm3.h"; sourceTree = "<group>"; };
 		B67BFFE12369A4FD00AD3CCA /* NSString+HM_Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HM_Base64.m"; sourceTree = "<group>"; };
 		B67BFFE22369A4FD00AD3CCA /* HMEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMEncrypt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,12 +91,12 @@
 		B67BFFDA2369A4FD00AD3CCA /* HM_SM3 */ = {
 			isa = PBXGroup;
 			children = (
-				B67BFFDB2369A4FD00AD3CCA /* HM_SM3.m */,
+				B67BFFDB2369A4FD00AD3CCA /* NSString+sm3.m */,
 				B67BFFDC2369A4FD00AD3CCA /* sm3.m */,
 				B67BFFDD2369A4FD00AD3CCA /* HMEncrypt.h */,
 				B67BFFDE2369A4FD00AD3CCA /* NSString+HM_Base64.h */,
 				B67BFFDF2369A4FD00AD3CCA /* sm3.h */,
-				B67BFFE02369A4FD00AD3CCA /* HM_SM3.h */,
+				B67BFFE02369A4FD00AD3CCA /* NSString+sm3.h */,
 				B67BFFE12369A4FD00AD3CCA /* NSString+HM_Base64.m */,
 				B67BFFE22369A4FD00AD3CCA /* HMEncrypt.m */,
 			);
@@ -179,7 +179,7 @@
 				B67BFFE42369A4FD00AD3CCA /* sm3.m in Sources */,
 				B67BFFE62369A4FD00AD3CCA /* HMEncrypt.m in Sources */,
 				B67BFFC92369A47100AD3CCA /* SceneDelegate.swift in Sources */,
-				B67BFFE32369A4FD00AD3CCA /* HM_SM3.m in Sources */,
+				B67BFFE32369A4FD00AD3CCA /* NSString+sm3.m in Sources */,
 				B67BFFCB2369A47100AD3CCA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
