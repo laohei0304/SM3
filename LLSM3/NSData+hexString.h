@@ -6,9 +6,6 @@
 //  Copyright © 2019 laohei. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
-
 #import <Foundation/Foundation.h>
 
 @interface NSData (DataToHexString)
