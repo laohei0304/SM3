@@ -15,6 +15,7 @@
 		B67BFFD32369A47200AD3CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67BFFD12369A47200AD3CCA /* LaunchScreen.storyboard */; };
 		B67BFFEC236A63F200AD3CCA /* NSString+sm3.m in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFE8236A63F200AD3CCA /* NSString+sm3.m */; };
 		B67BFFED236A63F200AD3CCA /* sm3.c in Sources */ = {isa = PBXBuildFile; fileRef = B67BFFE9236A63F200AD3CCA /* sm3.c */; };
+		B6FA9BB9236A8AE500B0727A /* NSData+hexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FA9BB8236A8AE500B0727A /* NSData+hexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		B67BFFE9236A63F200AD3CCA /* sm3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm3.c; sourceTree = "<group>"; };
 		B67BFFEA236A63F200AD3CCA /* sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm3.h; sourceTree = "<group>"; };
 		B67BFFEB236A63F200AD3CCA /* NSString+sm3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+sm3.h"; sourceTree = "<group>"; };
+		B6FA9BB6236A8A7200B0727A /* NSData+hexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+hexString.h"; sourceTree = "<group>"; };
+		B6FA9BB8236A8AE500B0727A /* NSData+hexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+hexString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +88,12 @@
 		B67BFFE7236A63F200AD3CCA /* LLSM3 */ = {
 			isa = PBXGroup;
 			children = (
+				B67BFFEB236A63F200AD3CCA /* NSString+sm3.h */,
 				B67BFFE8236A63F200AD3CCA /* NSString+sm3.m */,
+				B6FA9BB6236A8A7200B0727A /* NSData+hexString.h */,
+				B6FA9BB8236A8AE500B0727A /* NSData+hexString.m */,
 				B67BFFE9236A63F200AD3CCA /* sm3.c */,
 				B67BFFEA236A63F200AD3CCA /* sm3.h */,
-				B67BFFEB236A63F200AD3CCA /* NSString+sm3.h */,
 			);
 			path = LLSM3;
 			sourceTree = SOURCE_ROOT;
@@ -166,6 +171,7 @@
 			files = (
 				B67BFFC72369A47100AD3CCA /* AppDelegate.swift in Sources */,
 				B67BFFED236A63F200AD3CCA /* sm3.c in Sources */,
+				B6FA9BB9236A8AE500B0727A /* NSData+hexString.m in Sources */,
 				B67BFFC92369A47100AD3CCA /* SceneDelegate.swift in Sources */,
 				B67BFFCB2369A47100AD3CCA /* ContentView.swift in Sources */,
 				B67BFFEC236A63F200AD3CCA /* NSString+sm3.m in Sources */,

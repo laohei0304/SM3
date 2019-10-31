@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "SM3"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "SM3加解密."
     s.description  = <<-DESC
                     this is SM3.
